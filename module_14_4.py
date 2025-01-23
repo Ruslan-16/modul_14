@@ -17,7 +17,7 @@ class UserState(StatesGroup):
     weight = State()
 
 # Инициализация бота и диспетчера
-API_TOKEN = "7909183267:AAHmeBqf6YksQNS5jhoRMy0fKJvf8Facirc"
+API_TOKEN = "------------------"
 bot = Bot(token=API_TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(storage=storage)
